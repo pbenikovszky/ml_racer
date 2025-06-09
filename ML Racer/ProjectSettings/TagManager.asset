@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ground
+  - Car
+  - Wall
+  - Checkpoint
   layers:
   - Default
   - TransparentFX
@@ -12,10 +15,10 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
+  - Ground
+  - Wall
+  - Checkpoint
+  - Car
   - 
   - 
   - 

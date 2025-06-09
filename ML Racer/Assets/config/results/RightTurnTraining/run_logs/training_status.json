@@ -1,0 +1,65 @@
+{
+    "CarDriver": {
+        "checkpoints": [
+            {
+                "steps": 3499941,
+                "file_path": "results/RightTurnTraining/CarDriver/CarDriver-3499941.onnx",
+                "reward": null,
+                "creation_time": 1749005419.1635141,
+                "auxillary_file_paths": [
+                    "results/RightTurnTraining/CarDriver/CarDriver-3499941.pt"
+                ]
+            },
+            {
+                "steps": 3999973,
+                "file_path": "results/RightTurnTraining/CarDriver/CarDriver-3999973.onnx",
+                "reward": null,
+                "creation_time": 1749006009.2976692,
+                "auxillary_file_paths": [
+                    "results/RightTurnTraining/CarDriver/CarDriver-3999973.pt"
+                ]
+            },
+            {
+                "steps": 4499941,
+                "file_path": "results/RightTurnTraining/CarDriver/CarDriver-4499941.onnx",
+                "reward": null,
+                "creation_time": 1749006603.3056982,
+                "auxillary_file_paths": [
+                    "results/RightTurnTraining/CarDriver/CarDriver-4499941.pt"
+                ]
+            },
+            {
+                "steps": 4999973,
+                "file_path": "results/RightTurnTraining/CarDriver/CarDriver-4999973.onnx",
+                "reward": null,
+                "creation_time": 1749007197.416455,
+                "auxillary_file_paths": [
+                    "results/RightTurnTraining/CarDriver/CarDriver-4999973.pt"
+                ]
+            },
+            {
+                "steps": 5000165,
+                "file_path": "results/RightTurnTraining/CarDriver/CarDriver-5000165.onnx",
+                "reward": null,
+                "creation_time": 1749007197.457039,
+                "auxillary_file_paths": [
+                    "results/RightTurnTraining/CarDriver/CarDriver-5000165.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 5000165,
+            "file_path": "results/RightTurnTraining/CarDriver.onnx",
+            "reward": null,
+            "creation_time": 1749007197.457039,
+            "auxillary_file_paths": [
+                "results/RightTurnTraining/CarDriver/CarDriver-5000165.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.30.0",
+        "torch_version": "1.11.0"
+    }
+}

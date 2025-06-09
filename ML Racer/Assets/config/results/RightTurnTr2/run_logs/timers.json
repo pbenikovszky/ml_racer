@@ -1,0 +1,63 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1749032093",
+        "python_version": "3.9.15 (main, Oct 12 2022, 02:45:04) \n[Clang 13.0.0 (clang-1300.0.29.30)]",
+        "command_line_arguments": "/Users/pbenikovszky/.local/share/virtualenvs/config-jkTmNfy4/bin/mlagents-learn carDriver_config.yaml --run-id=RightTurnTr2 --force",
+        "mlagents_version": "0.30.0",
+        "mlagents_envs_version": "0.30.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "1.11.0",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1749032120"
+    },
+    "total": 26.988962917,
+    "count": 1,
+    "self": 0.0064195429999998055,
+    "children": {
+        "run_training.setup": {
+            "total": 0.013031915999999977,
+            "count": 1,
+            "self": 0.013031915999999977
+        },
+        "TrainerController.start_learning": {
+            "total": 26.969511458,
+            "count": 1,
+            "self": 2.6374999997358373e-05,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 26.968580958,
+                    "count": 1,
+                    "self": 26.968169458000002,
+                    "children": {
+                        "demo_to_buffer": {
+                            "total": 0.00041149999999845477,
+                            "count": 1,
+                            "self": 7.832999997958723e-06,
+                            "children": {
+                                "load_demonstration": {
+                                    "total": 0.00040366700000049605,
+                                    "count": 1,
+                                    "self": 0.00040366700000049605
+                                }
+                            }
+                        }
+                    }
+                },
+                "TrainerController._save_models": {
+                    "total": 0.0009041250000016987,
+                    "count": 1,
+                    "self": 7.137500000098385e-05,
+                    "children": {
+                        "RLTrainer._checkpoint": {
+                            "total": 0.0008327500000007149,
+                            "count": 1,
+                            "self": 0.0008327500000007149
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

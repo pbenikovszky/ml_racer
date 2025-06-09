@@ -64,6 +64,13 @@ sysinfo.txt
 *.unitypackage.meta
 *.app
 
+
+# Demos and models
+[Dd]emos/
+[Dd]emo/
+*.demo
+*.onnx
+
 # Crashlytics generated file
 crashlytics-build.properties
 
